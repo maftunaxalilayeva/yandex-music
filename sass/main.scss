@@ -83,7 +83,8 @@ ul {
         background-color: burlywood;
         border: none;
     }
-    &__input::placeholder{
+
+    &__input::placeholder {
         color: bisque;
     }
 
@@ -93,62 +94,64 @@ ul {
     }
 }
 
-.href{ 
-&__audio-player {
-    width: 100%;
-    // max-width: 400px;
-    height: 80px;
-   background-image: url("../images/bacround.webp");
-    color: white;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 170px;
-    border-color: bisque;
-    border-style: inset;
-    border-width: 0.5px;
-    
-
-    &__info {
-        display: flex;
+.href {
+    &__audio-player {
+        width: 400px;
+        height: 80px;
         align-items: center;
-        width: 100%;
-        margin-bottom: 10px;
+        display: flex;
+        border-color: bisque;
+        border-style: inset;
+        border-width: 0.5px;
+        background-image: url("../images/bacround.webp");
+        padding: 15px;
 
-        &__cover {
-            width: 50px;
-            height: 50px;
-            border-radius: 5px;
-            margin-right: 10px;
+        &__info {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 10px;
+            margin-top: 5px;
+
+            &__cover {
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+
         }
 
-    }
- &__details {
+        &__details {
             &__title {
                 font-weight: bold;
                 font-size: 16px;
+                color: white;
+                width: 150px;
+                height: 20px;
             }
 
             &__artist {
                 font-size: 12px;
                 opacity: 0.7;
                 margin-top: 5px;
-            }   }
-        &__df{
+                color: white;
+            }
+        }
+
+        &__df {
             display: flex;
             gap: 20px;
-            margin-left: 300px;
-            margin-top: 20px;
-            &__p{
-                color:azure;
+            margin-left: 90px;
+            margin-top: 7px;
+
+            &__p {
+                color: azure;
                 font-size: 15.21px;
                 font-weight: 400;
                 line-height: 31px;
             }
         }
-}
+    }
 
-       
- }   
- 
+}
